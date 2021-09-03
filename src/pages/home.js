@@ -33,7 +33,7 @@ class Home extends React.Component{
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br/>I'am <span class="home__title-color">Debidatta</span><br/> Web Designer</h1>
 
-                    <a href="#" class="button">Contact</a>
+                    <a href="#contact" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
@@ -133,22 +133,22 @@ class Home extends React.Component{
 
                 <div class="work__container bd-grid">
                     <div class="work__img">
-                        <img src="assets/work1.jpg" alt="" />
+                        <a href="https://2-degree.netlify.app/"><img src="assets/2-degree.png" alt="" /></a>
                     </div>
                     <div class="work__img">
-                        <img src="assets/work2.jpg" alt="" />
+                        <a href="https://debidattasuryaprakash.github.io/covid-website/"><img src="assets/couiz.png" alt="" /></a>
                     </div>
                     <div class="work__img">
-                        <img src="assets/work3.jpg" alt="" />
+                        <a href="https://github.com/debidattasuryaprakash/DEV-FEST-2.0"><img src="assets/e-troops.png" alt="" /></a>
                     </div>
                     <div class="work__img">
-                        <img src="assets/work4.jpg" alt="" />
+                        <a href="https://opentek.live/"><img src="assets/opentek-contributor.png" alt="" /></a>
                     </div>
                     <div class="work__img">
-                        <img src="assets/work5.jpg" alt="" />
+                        <a href="https://debidattasuryaprakash.github.io/project-ions/"><img src="assets/projections.png" alt="" /></a>
                     </div>
                     <div class="work__img">
-                        <img src="assets/work6.jpg" alt="" />
+                        <a href="https://seashore-grasp.vercel.app/"><img src="assets/seashorecontributor.png" alt="" /></a>
                     </div>
                 </div>
             </section>
@@ -158,11 +158,11 @@ class Home extends React.Component{
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
+                    <form action="mailto:suryaprakash.d20@gmail.com" class="contact__form" method="POST" enctype="multipart/form-data" name="EmailForm">
                         <input type="text" placeholder="Name" class="contact__input" />
                         <input type="mail" placeholder="Email" class="contact__input" />
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Submit" class="contact__button button" />
+                        <input type="submit" value="Submit" class="contact__button button" />
                     </form>
                 </div>
             </section>
@@ -184,7 +184,7 @@ class Home extends React.Component{
         <script src="https://unpkg.com/scrollreveal"></script>
 
         {/* <!--===== MAIN JS =====--> */}
-        <script src="main.js"></script>
+        <script src="assets/main.js"></script>
         </div>
         );
     }
